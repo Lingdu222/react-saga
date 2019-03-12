@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body {
+  background: yellow; }
+
+.app {
+  background: url(img/6fa8d41aaee971926ad994d64dd0f4e5.png);
+  width: 500px;
+  height: 500px; }

@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "dependencies": {
+    "antd": "^3.15.0",
+    "global": "^4.3.2",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "qs": "^6.6.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --config config/webpack.config.dev.js",
+    "build": "webpack --mode production --config config/webpack.config.prod.js",
+    "server": "webpack-dev-server --mode development --config config/webpack.config.dev.js"
+  }
+}

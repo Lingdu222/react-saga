@@ -1,0 +1,46 @@
+.dbmp-searchlist {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: @body-background;
+    &-search {
+        background: #fff;
+        border-radius: @card-radius;
+        padding: @padding-md @padding-lg;
+        box-shadow: @box-shadow-base;
+        &-btns {
+            text-align: right;
+            padding-left: 8.3%;
+            .nova-btn-group {
+                float: right;
+            }
+        }
+        &-extra {
+            float: right;
+            margin-right: 12px;
+            line-height: 42px;
+        }
+        .nova-datetime-range-ipt {
+            width: auto !important;
+        }
+    }
+    &-table {
+        background: #fff;
+        border-radius: @card-radius;
+        padding: @padding-md @padding-lg;
+        margin-top: @padding-sm;
+        box-shadow: @box-shadow-base;
+        td.nova-table-btn-group-td {
+            padding-left: @padding-sm  !important;
+        }
+        .ant-card-body {
+            thead {
+                th {
+                    span {
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

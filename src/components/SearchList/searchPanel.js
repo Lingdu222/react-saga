@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Form, BtnGroup } from 'nova';
+import { Form, BtnGroup } from 'antd';
 
 const defaultSearchConfig = {
     btns: ['search', 'reset'],

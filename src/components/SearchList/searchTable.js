@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Table } from 'nova';
+import { Table } from 'antd';
 
 export default class SearchTable extends React.Component {
     static propTypes = {

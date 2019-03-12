@@ -37,13 +37,13 @@ function renderOption(item) {
 }
 
 function searchResult(query) {
-    return (new Array(getRandomInt(5))).join('.').split('.')
-        .map((item, idx) => ({
-        query,
-        category: `${query}${idx}`,
-        // count: getRandomInt(200, 100),
-        }));
-    }
+  return (new Array(getRandomInt(5))).join('.').split('.')
+    .map((item, idx) => ({
+      query,
+      category: `${query}${idx}`,
+      // count: getRandomInt(200, 100),
+    }));
+}
 
 class Complete extends React.Component {
   state = {
@@ -76,15 +76,15 @@ ReactDOM.render(<Complete />, mountNode);
 
 
 {
-  showNav  && (!isExtra || (() => {
-  return location.hash.search('#/extrapage') > -1
-})() ) 
-&& <div className={menuIconClsName}  onClick={() => {this.showMenu()}}>
-    <svg
-        className="nova-icon"
+  showNav && (!isExtra || (() => {
+    return location.hash.search('#/extrapage') > -1
+  })())
+    && <div className={menuIconClsName} onClick={() => { this.showMenu() }}>
+      <svg
+
         aria-hidden="true"
-        >
-            <use xlinkHref={"#fs-nav"} />
-    </svg><span className="title">导航</span>
-</div>
+      >
+        <use xlinkHref={"#fs-nav"} />
+      </svg><span className="title">导航</span>
+    </div>
 }

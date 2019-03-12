@@ -1,4 +1,3 @@
-// import { Ipt } from 'nova';
 import { Ipt } from 'antd';
 import React from 'react';
 import PropTypes from 'prop-types';

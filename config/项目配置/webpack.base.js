@@ -66,7 +66,6 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
         alias: {
-            nova: resolve('node_modules/@didi/nova-core'),
             SAGA: resolve('src/store/saga/utils'),
             HELP: resolve('src/helpers'),
             CONST: resolve('src/constants'),

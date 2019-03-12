@@ -1,1 +1,1 @@
-require("./components/home2")
+// require("./components/home2")

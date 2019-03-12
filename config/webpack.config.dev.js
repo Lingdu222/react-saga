@@ -6,9 +6,9 @@ module.exports = {
     //entry,可以是字符串(一个入口)，可以是数组（多入口），可以是对象的形式
     // entry:["./src/main.js","./src/app.js"],
     entry: {
-        // 'app':"./src/main.js",
-        'scripts／app': "./src/main.js",//入口文件可以加路径，暂时这个我还没有明白是什么意思？？？？
-        'app2': "./src/index.js",
+        'app': "./src/index.js",
+        // 'scripts／app': "./src/main.js",//入口文件可以加路径，暂时这个我还没有明白是什么意思？？？？
+        // 'app2': "./src/index.js",
         //'vendor/react':"react",//抽离第三方库的入口
         //'vendor/react-dom':"react-dom",//抽离第三方库的入口
 
